@@ -40,12 +40,12 @@ export default function Home() {
           <div className="flex space-x-4 mt-6">
             <a href="https://github.com/BlskMax" target="_blank" rel="noopener noreferrer"
               className="rounded-2xl duration-500 hover:scale-105">
-              <FaGithub className="text-white text-4xl md:text-5xl hover:text-red-700 duration-500" />
+              <FaGithub className="text-white text-4xl md:text-7xl hover:text-red-700 duration-500" />
             </a>
 
             <a href="https://www.linkedin.com/in/alejandro-maximiliano-galarza-ornelas-9b503b2b2/"
               className="rounded-2xl duration-500 hover:scale-105" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin className="text-white text-4xl md:text-5xl hover:text-red-700 duration-500" />
+              <FaLinkedin className="text-white text-4xl md:text-7xl hover:text-red-700 duration-500" />
             </a>
           </div>
         </div>

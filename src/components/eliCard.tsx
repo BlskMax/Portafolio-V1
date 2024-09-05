@@ -81,7 +81,7 @@ export default function EliCard() {
             </a>
             <h1 className="text-white">CODE</h1>
           </div>
-          <div>
+          {/* <div>
             <a
               href="https://comiccraft.vercel.app/"
               className="rounded-2xl"
@@ -91,7 +91,7 @@ export default function EliCard() {
               <IoMdEye className="text-white text-4xl md:text-5xl hover:text-red-800 duration-500 hover:scale-125" />
             </a>
             <h1 className="text-white">VISIT</h1>
-          </div>
+          </div> */}
         </article>
       </section>
     </main>
