@@ -34,7 +34,7 @@ export default function ComicCard() {
     <main className="w-full md:w-[68vw] h-[84vh] shadow-[0_0_10px_2px_rgba(153,27,27,0.5)] backdrop-blur-lg backdrop-saturate-180 bg-[rgba(10,11,24,0.58)] rounded-xl ml-auto mr-auto p-4 md:ml-[2vw]">
       <section className="flex flex-col md:flex-row justify-evenly pt-[8vh] md:pt-[12vh]">
         <img
-          src="/images/ccpr.jpg"
+          src="/images/ccPr.jpg"
           className="w-full md:w-[40vw] max-h-96 h-auto rounded-xl border-2 border-white border-opacity-20 mb-6 md:mb-0 "
         />
 

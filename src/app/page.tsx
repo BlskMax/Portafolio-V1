@@ -23,6 +23,7 @@ export default function Home() {
           autoPlay
           loop
           muted
+          preload="auto"
           disablePictureInPicture
           className="absolute top-0 left-0 w-[160vw] h-[140vh] md:w-screen md:h-screen  object-cover"
         >

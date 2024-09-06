@@ -20,7 +20,7 @@ export default function FlickCard() {
   const carImages = [
     "/images/htmlPng.png",
     "/images/cssPng.png",
-    "/images/jsPng.png",
+    "/images/jsPNG.png",
     "/images/mongoPng.png",
     "/images/node.png",
     "/images/expressPng.png",
