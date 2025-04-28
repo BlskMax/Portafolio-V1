@@ -26,6 +26,12 @@ const Card = () => {
             image: "/images/smPrev.png",
             link: "#skyCard",
         },
+        {
+            name: "/images/skyLogo.png",
+            role: "Static Page",
+            image: "/images/smPrev.png",
+            link: "#skyCard",
+        },
       ];
 
   return (

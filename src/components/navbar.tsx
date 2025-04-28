@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import Link from 'next/link';
 import { Bebas_Neue } from 'next/font/google';
+import { usePathname, useRouter } from 'next/navigation';
 
 const bebas = Bebas_Neue({
     subsets: ['latin'],
@@ -13,20 +14,45 @@ const bebas = Bebas_Neue({
 
 export default function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
+  const router = useRouter();
+  const pathname = usePathname();
 
   return (
-    <nav className="fixed w-screen top-0 z-20 bg-black bg-opacity-20 text-white">
+    <nav className="fixed w-screen top-0 z-20 bg-black text-white">
       <div className="max-w-9xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 md:items-center">
           <div className="flex-shrink-0 flex items-center">
-            <Link href="#start" className={`${bebas.variable} font-sans text-2xl md:text-4xl font-bold`}>
+            <button type="button" onClick={() => router.push('/')} className={`${bebas.variable} font-sans text-2xl md:text-4xl font-bold`}>
               MG
-            </Link>
+            </button>
           </div>
+
           <div className="hidden md:flex space-x-4">
-            <Link href="#about" className={`${bebas.variable} font-sans text-4xl font-bold hover:text-red-600`}>About</Link>
-            <Link href="#projects" className={`${bebas.variable} font-sans text-4xl font-bold hover:text-red-600`}>Projects</Link>
-            <Link href="#contact" className={`${bebas.variable} font-sans text-4xl font-bold hover:text-red-600`}>Contact</Link>
+            
+            {pathname === '/' ? (
+              <button type="button" onClick={() => router.push('/')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>ABOUT</button>
+            ) : (
+              <button type="button" onClick={() => router.push('/')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>ABOUT</button>
+            )}
+
+            {pathname === '/softwareDev' ? (
+              <button type="button" onClick={() => router.push('/softwareDev')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>SOFTWARE</button>
+            ) : (
+              <button type="button" onClick={() => router.push('/softwareDev')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>SOFTWARE</button>
+            )}
+
+            {pathname === '/graphicDesign' ? (
+              <button type="button" onClick={() => router.push('/graphicDesign')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>DESIGN</button>
+            ) : (
+              <button type="button" onClick={() => router.push('/graphicDesign')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>DESIGN</button>
+            )}
+
+            {pathname === '/contactPage' ? (
+              <button type="button" onClick={() => router.push('/contactPage')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>CONTACT</button>
+            ) : (
+              <button type="button" onClick={() => router.push('/contactPage')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>CONTACT</button>
+            )}
+
           </div>
           <div className="md:hidden flex items-center">
             <button onClick={() => setNavOpen(!navOpen)} className="text-white focus:outline-none">

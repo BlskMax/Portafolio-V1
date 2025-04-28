@@ -9,12 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       spacing: {
-        '112': '28rem', // Añade tu tamaño personalizado aquí
-        '144': '36rem', // Añade tu tamaño personalizado aquí
+        '112': '28rem',
+        '144': '36rem',
       },
       backgroundColor: {
         'custom-transparent': 'rgba(100, 6, 43, 0.5)',
         'custom-input': 'rgba(245, 199, 2, 0.7)',
+        'absolute-black': '#000000', // <-- añadido aquí
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -24,7 +25,7 @@ const config: Config = {
       fontFamily: {
         sans: 'var(--font-bebas)',
         mono: 'var(--font-antonio)',
-        black: 'var (--font-josefin)'
+        black: 'var (--font-josefin)',
       },
       keyframes: {
         display: {
@@ -35,11 +36,12 @@ const config: Config = {
           '100%': { transform: 'translateX(-200px)', opacity: '0' },
         },
       },
-      animation : {
-        display: 'display 16s infinite'
-      }
+      animation: {
+        display: 'display 16s infinite',
+      },
     },
   },
-  plugins: [],
+  plugins: [require('tailwind-scrollbar-hide')],
+
 };
 export default config;
