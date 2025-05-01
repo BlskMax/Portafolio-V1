@@ -40,6 +40,7 @@ interface IGraphicThing {
     name:string;
     type:string;
     image:string;
+    list:string;
 }
 
 interface IGraphicThingProps {
