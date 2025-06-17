@@ -19,13 +19,13 @@ const bebas = Bebas_Neue({
 function GraphicList({ graphics }: IGraphicThingListProps) {
   const [filter, setFilter] = useState<string>('all');
 
-  // Aquí usamos list en lugar de type
+  
   const lists = useMemo(() => {
     const uniqueLists = new Set(graphics.map(g => g.list?.toLowerCase()));
-    return Array.from(uniqueLists).filter(Boolean); // evita undefined o null si los hay
+    return Array.from(uniqueLists).filter(Boolean); 
   }, [graphics]);
 
-  // Y también filtramos por list
+
   const filteredGraphics = useMemo(() => {
     if (filter === 'all') return graphics;
     return graphics.filter(g => g.list?.toLowerCase() === filter);
@@ -34,7 +34,7 @@ function GraphicList({ graphics }: IGraphicThingListProps) {
   return (
     <main className={`${bebas.className} w-screen mt-[10vh] flex flex-col items-center mb-[10vh]`}>
       <div className={bebas.className}>
-        <h1 className="text-8xl border-2 border-red-800 p-4 mb-[4vh]">GRAPHIC DESIGN WORKS</h1>
+        <h1 className="text-8xl border-2 border-red-800 p-4 mb-[4vh]">Diseño Gráfico</h1>
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 mb-[5vh] px-4">
@@ -42,7 +42,7 @@ function GraphicList({ graphics }: IGraphicThingListProps) {
           onClick={() => setFilter('all')}
           className={`rounded-lg text-3xl px-4 py-2 uppercase ${filter === 'all' ? 'bg-red-800 text-white' : 'bg-red-800 text-black'} transition-all duration-300 hover:scale-110`}
         >
-          All
+          Todo
         </button>
         {lists.map(list => (
           <button

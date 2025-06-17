@@ -39,7 +39,7 @@ export default function ContactComponent() {
         />
 
         <article className="flex flex-col md:flex-row sm:justify-evenly mt-4 space-y-8 sm:space-y-0 w-[80vw] ml-auto mr-auto ">
-          <div className="flex flex-col md:items-left space-y-4">
+          <div className="flex flex-row md:items-left space-y-4">
             <div className="flex items-center">
               <a
                 href="https://github.com/BlskMax"
@@ -48,7 +48,7 @@ export default function ContactComponent() {
                 className="rounded-2xl duration-500 hover:scale-105 flex items-center"
               >
                 <FaGithub className="text-white md:text-7xl text-5xl hover:text-red-700 duration-500 mr-2" />
-                <h1 className="md:text-2xl">/BlskMax</h1>
+                {/* <h1 className="md:text-2xl">/BlskMax</h1> */}
               </a>
             </div>
 
@@ -60,12 +60,12 @@ export default function ContactComponent() {
                 rel="noopener noreferrer"
               >
                 <FaLinkedin className="text-white md:text-7xl text-5xl hover:text-red-700 duration-500 mr-2" />
-                <h1 className="md:text-2xl">/alejandro-maximiliano-galarza-ornelas</h1>
+                {/* <h1 className="md:text-2xl">/alejandro-maximiliano-galarza-ornelas</h1> */}
               </a>
             </div>
           </div>
 
-          <div className="flex flex-col md:items-left space-y-4">
+          <div className="flex flex-row md:items-left space-y-4">
             <div className="flex items-center">
               <a
                 href="mailto:alejandro8g8@gmail.com"
@@ -74,7 +74,7 @@ export default function ContactComponent() {
                 rel="noopener noreferrer"
               >
                 <ImMail4 className="text-white md:text-7xl text-5xl hover:text-red-700 duration-500 mr-2" />
-                <h1 className="md:text-2xl">alejandro8g8@gmail.com</h1>
+                {/* <h1 className="md:text-2xl">alejandro8g8@gmail.com</h1> */}
               </a>
             </div>
 
@@ -86,7 +86,7 @@ export default function ContactComponent() {
                 rel="noopener noreferrer"
               >
                 <FaWhatsapp className="text-white md:text-7xl text-5xl hover:text-red-700 duration-500 mr-2" />
-                <h1 className="md:text-2xl">+52 55-7068-0017</h1>
+                {/* <h1 className="md:text-2xl">+52 55-7068-0017</h1> */}
               </a>
             </div>
           </div>

@@ -24,7 +24,7 @@ function SoftwareList ({softwares}: ISoftwareListProps) {
         <div className={bebas.className}>
                     <h1
                     className=" text-8xl border-2 border-red-800 p-4 mb-[8vh] "
-                    >SOFTWARE DEV. PROJECTS</h1>
+                    > Desarrollo de software</h1>
         </div>
 
         <div className="grid grid-cols-2 md:grid-cols-3 md:gap-x-[5vw] md:gap-y-[2vw] gap-x-[4vw] gap-y-[2vh] pl-[2vw] pr-[2vw]  ">

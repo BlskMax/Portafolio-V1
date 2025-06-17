@@ -35,6 +35,23 @@ interface ISoftwareListProps {
     softwares:ISoftware[];
 }
 
+interface IVideoThing {
+    id:number;
+    name:string;
+    type:string;
+    list:string;
+    image:string;
+    link:string;
+}
+
+interface IVideoThingProps {
+    video:IVideoThing;
+}
+
+interface IVideoThingListProps {
+    videos: IVideoThing[];
+}
+
 interface IGraphicThing {
     id:number;
     name:string;
@@ -51,11 +68,32 @@ interface IGraphicThingListProps {
     graphics:IGraphicThing[];
 }
 
+interface IContact {
+    id:number;
+    name:string;
+    image:string;
+    link:string;
+}
+
+interface IContactProps {
+    contact:IContact;
+}
+
+interface IContactListProps {
+    contacts:IContact[];
+}
+
 export type {
     ISoftware,
     ISoftwareListProps,
     ISoftwareProps,
     IGraphicThing,
     IGraphicThingProps,
-    IGraphicThingListProps
+    IGraphicThingListProps,
+    IContact,
+    IContactProps,
+    IContactListProps,
+    IVideoThing,
+    IVideoThingProps,
+    IVideoThingListProps,
 }

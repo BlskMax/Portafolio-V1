@@ -23,16 +23,23 @@ export default function Navbar() {
         <div className="flex justify-between h-16 md:items-center">
           <div className="flex-shrink-0 flex items-center">
             <button type="button" onClick={() => router.push('/')} className={`${bebas.variable} font-sans text-2xl md:text-4xl font-bold`}>
-              MAX
+              BLSKMAX
             </button>
           </div>
 
           <div className="hidden md:flex space-x-4">
             
-            {pathname === '/' ? (
-              <button type="button" onClick={() => router.push('/')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>ABOUT</button>
+            {pathname === '/video' ? (
+              <button type="button" onClick={() => router.push('/video')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>VIDEO</button>
             ) : (
-              <button type="button" onClick={() => router.push('/')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>ABOUT</button>
+              <button type="button" onClick={() => router.push('/video')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>VIDEO</button>
+            )}
+
+
+            {pathname === '/graphicDesign' ? (
+              <button type="button" onClick={() => router.push('/graphicDesign')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>DISEÑO</button>
+            ) : (
+              <button type="button" onClick={() => router.push('/graphicDesign')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>DISEÑO</button>
             )}
 
             {pathname === '/softwareDev' ? (
@@ -40,18 +47,12 @@ export default function Navbar() {
             ) : (
               <button type="button" onClick={() => router.push('/softwareDev')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>SOFTWARE</button>
             )}
-
-            {pathname === '/graphicDesign' ? (
-              <button type="button" onClick={() => router.push('/graphicDesign')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>DESIGN</button>
-            ) : (
-              <button type="button" onClick={() => router.push('/graphicDesign')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>DESIGN</button>
-            )}
-
             {pathname === '/contactPage' ? (
-              <button type="button" onClick={() => router.push('/contactPage')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>CONTACT</button>
+              <button type="button" onClick={() => router.push('/contactPage')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>CONTACTO</button>
             ) : (
-              <button type="button" onClick={() => router.push('/contactPage')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>CONTACT</button>
+              <button type="button" onClick={() => router.push('/contactPage')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>CONTACTO</button>
             )}
+
 
           </div>
           <div className="md:hidden flex items-center">

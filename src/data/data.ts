@@ -1,4 +1,4 @@
-import { IGraphicThing, ISoftware } from "@/interfaces";
+import { IContact, IGraphicThing, ISoftware, IVideoThing } from "@/interfaces";
 
 export const allSoftwareList: ISoftware[] = [
 
@@ -156,10 +156,10 @@ export const allGraphicList: IGraphicThing[] = [
 
     {
         id:100,
-        name:"Pld Cover",
+        name:"Pld Portada",
         type:"Cover Art",
         image:"/images/works/prePDS4.jpg",
-        list:"music",
+        list:"musica",
     },
     {
         id:101,
@@ -170,56 +170,56 @@ export const allGraphicList: IGraphicThing[] = [
     },
     {
         id:102,
-        name:"PLD Promotional Art",
+        name:"PLD Arte Promocional",
         type:"Promotional Art",
         image:"/images/works/farCover.jpg",
-        list:"music",
+        list:"musica",
     },
     {
         id:103,
-        name:"PV Flyer",
+        name:"Powerdrill Flyer Mayo",
         type:"show flyer",
         image:"/images/works/flyCafe1.jpg",
-        list:"music",
+        list:"musica",
     },
     {
         id:104,
-        name:"Oppenheimer Thumb",
+        name:"Oppenheimer Miniatura",
         type:"Youtube Thumbnail",
         image:"/images/works/oppen_mini.jpg",
         list:"youtube",
     },
     {
         id:105,
-        name:"Coagula Promo",
+        name:"Coagula Arte Promo",
         type:"Promotional art",
         image:"/images/works/cocoagua.jpg",
-        list:"music",
+        list:"musica",
     },
     {
         id:106,
-        name:"Pink Machine Title Card",
+        name:"Pink Tarjeta de Titulo",
         type:"Music Video Title card",
         image:"/images/works/pinkThumb.jpg",
-        list:"music",
+        list:"musica",
     },
     {
         id:107,
-        name:"CRISTAL PROMO",
+        name:"CRISTAL Arte PROMO",
         type:"PROMOTIONAL ART",
         image:"/images/works/cristProm.jpg",
-        list:"music",
+        list:"musica",
     },
     {
         id:108,
-        name:"Metanoia PFP",
+        name:"Metanoia Logo",
         type:"youtube Logo",
         image:"/images/works/metPfp.jpg",
         list:"youtube",
     },
     {
         id:110,
-        name:"Tortugas Thumb",
+        name:"Tortugas Miniatura",
         type:"youtube Thumbnail",
         image:"/images/works/tortu_mini.jpg",
         list:"youtube",
@@ -227,7 +227,7 @@ export const allGraphicList: IGraphicThing[] = [
 
     {
         id:111,
-        name:"PD BANNER",
+        name:"Powerdrill BANNER",
         type:"YOUTUBE BANNER",
         image:"/images/works/powBanner.jpg",
         list:"youtube",
@@ -235,10 +235,10 @@ export const allGraphicList: IGraphicThing[] = [
 
     {
         id:113,
-        name:"Farwell Cover art",
+        name:"Farwell Portada",
         type:"Cover art",
         image:"/images/works/periArt.jpg",
-        list:"music",
+        list:"musica",
     },
     // {
     //     id:103,
@@ -251,7 +251,7 @@ export const allGraphicList: IGraphicThing[] = [
         name:"PV PK-2025",
         type:"Press-kit",
         image:"/images/works/pvPk2.png",
-        list:"music",
+        list:"musica",
     },
     {
         id:115,
@@ -265,14 +265,14 @@ export const allGraphicList: IGraphicThing[] = [
         name:"PV Flyer",
         type:"Band-Flyer",
         image:"/images/works/tech.jpg",
-        list:"music",
+        list:"musica",
     },
     {
         id:117,
         name:"Butcher Promo",
         type:"Promotional art",
         image:"/images/works/protoButher.jpg",
-        list:"music",
+        list:"musica",
     },
     {
         id:118,
@@ -286,7 +286,7 @@ export const allGraphicList: IGraphicThing[] = [
         name:"Bloodskull Logo",
         type:"Band logo",
         image:"/images/works/bl_log1.jpg",
-        list:"music",
+        list:"musica",
     },
     {
         id:120,
@@ -297,7 +297,7 @@ export const allGraphicList: IGraphicThing[] = [
     },
     {
         id:121,
-        name:"BEAU thumb",
+        name:"BEAU Miniatura",
         type:"Youtube thumbnail",
         image:"/images/works/beau_mini.jpg",
         list:"youtube",
@@ -314,21 +314,21 @@ export const allGraphicList: IGraphicThing[] = [
         name:"BloodSkull LOGO",
         type:"Band logo",
         image:"/images/works/bl_log2.jpg",
-        list:"music",
+        list:"musica",
     },
     {
         id:124,
-        name:"V-Cover art",
+        name:"Void Portada",
         type:"Cover art",
         image:"/images/works/bl_art1.jpg",
-        list:"music",
+        list:"musica",
     },
     {
         id:125,
-        name:"Rat Meat Cover art",
+        name:"Rat Meat Portada",
         type:"Cover art",
         image:"/images/works/bl_art2.jpg",
-        list:"music",
+        list:"musica",
     },
     {
         id:126,
@@ -350,5 +350,140 @@ export const allGraphicList: IGraphicThing[] = [
         type:"Fan Art",
         image:"/images/works/smb.jpg",
         list:"fan art",
+    },
+    {
+        id:129,
+        name:"TLOU Miniatura",
+        type:"youtube thumbnail",
+        image:"/images/works/tlou.jpg",
+        list:"youtube",
+    },
+    {
+        id:130,
+        name:"Destino Miniatura",
+        type:"youtube thumbnail",
+        image:"/images/works/destino.jpg",
+        list:"youtube",
+    },
+    {
+        id:129,
+        name:"sinners Miniatura",
+        type:"youtube thumbnail",
+        image:"/images/works/sinners.jpg",
+        list:"youtube",
+    },
+    {
+        id:129,
+        name:"thunder Miniatura",
+        type:"youtube thumbnail",
+        image:"/images/works/thunder.jpg",
+        list:"youtube",
+    },
+    {
+        id:129,
+        name:"Doble Miniatura",
+        type:"youtube thumbnail",
+        image:"/images/works/dobFeat.png",
+        list:"youtube",
+    },
+    {
+        id:129,
+        name:"PV FLYER JULio",
+        type:"youtube thumbnail",
+        image:"/images/works/caribeJuly.jpg",
+        list:"musica",
+    },
+]
+
+export const allContacts: IContact[] = [
+    {
+        id:1,
+        name:"Github",
+        image:"github",
+        link:"https://github.com/BlskMax",
+    },
+    {
+        id:2,
+        name:"Linkedin",
+        image:"github",
+        link:"https://www.linkedin.com/in/alejandro-maximiliano-galarza-ornelas-9b503b2b2/",
+    },
+    {
+        id:3,
+        name:"Mail",
+        image:"github",
+        link:"mailto:alejandro8g8@gmail.com",
+    },
+    {
+        id:4,
+        name:"Whatsapp",
+        image:"github",
+        link:"https://wa.me/525570680017",
+    },
+]
+
+export const allVideos: IVideoThing[] = [
+    {
+    id:1,
+    name:"COAGULA LYRIC VIDEO",
+    type:"VIDEO MUSICAL",
+    list:"MUSICA",
+    image:"/images/works/coagThumb.jpg",
+    link:"https://www.youtube.com/watch?v=lD10-aE8S20"
+    },
+
+    {
+    id:2,
+    name:"Pink Machine",
+    type:"VIDEO MUSICAL",
+    list:"MUSICA",
+    image:"/images/works/pinkThumb2.jpg",
+    link:"https://www.youtube.com/watch?v=tZGwVhhlTRc"
+    },
+
+        {
+    id:2,
+    name:"SINNERS",
+    type:"CRITICA CINE",
+    list:"VLOG",
+    image:"/images/works/sinners.jpg",
+    link:"https://youtu.be/ZfVUDp5MKw0?si=ur99qdtR8C0VQLKC"
+    },
+    
+    {
+    id:2,
+    name:"THUNDERBOLTS",
+    type:"CRITICA CINE",
+    list:"VLOG",
+    image:"/images/works/thunder.jpg",
+    link:"https://www.youtube.com/watch?v=SkMNHLwnICo"
+    },
+    
+    
+    {
+    id:2,
+    name:"DESTINO FINAL",
+    type:"CRITICA CINE",
+    list:"VLOG",
+    image:"/images/works/destino.jpg",
+    link:"https://www.youtube.com/watch?v=w9FGVXXO2pE"
+    },
+    
+    {
+    id:2,
+    name:"TLOU S2",
+    type:"CRITICA CINE",
+    list:"VLOG",
+    image:"/images/works/tlou.jpg",
+    link:"https://www.youtube.com/watch?v=2WEQblaS2Ug"
+    },
+    
+    {
+    id:2,
+    name:"OPPENHEIMER",
+    type:"CRITICA CINE",
+    list:"VLOG",
+    image:"/images/works/oppen_mini.jpg",
+    link:"https://youtu.be/sm2J2qgvoC8?si=I9lO1nKs2Mmz6J5P"
     },
 ]
