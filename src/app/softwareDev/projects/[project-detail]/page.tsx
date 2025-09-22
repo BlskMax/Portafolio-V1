@@ -185,19 +185,28 @@ const ProjectDetailPage = () => {
                             <UsedTechComponent images={techImages} />
                     </article>
 
-                    <article className=" mt-[5vh] border-t-2 border-dotted ml-auto mr-auto mb-[8vh] ">
+
+                    {project.screenshots ? (<article className=" mt-[5vh] border-t-2 border-dotted ml-auto mr-auto mb-[8vh] ">
                     <div className="grid grid-cols-2 gap-y-[5vh] gap-x-[5vw] mt-[8vh]">
   {extraImages.map((img, index) => (
     <img
       key={index}
       src={img ?? ""}
-      className="w-[45vw] rounded-2xl cursor-pointer hover:scale-105 duration-200"
+      className="w-[45vw] rounded-2xl cursor-pointer hover:scale-105 duration-200 border-2 border-white"
       onClick={() => setActiveImageIndex(index)}
     />
   ))}
 </div>
 
-                    </article>
+                    </article>) : ( 
+                      <div className="ml-auto mr-auto">
+                            <div className={shippori.className}>
+                                <h1 className="uppercase text-red-700 text-5xl border-2 border-dotted p-16 mb-[10vh] mt-[10vh]">No screenshots available :( </h1>
+                            </div>
+                      </div>
+                    )}
+
+                    
 
                 </main>
                 ) : (

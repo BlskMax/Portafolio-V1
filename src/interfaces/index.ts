@@ -13,6 +13,7 @@ interface ISoftware {
     altImage:string;
     type:string;
     description:string;
+    screenshots:boolean;
     extra1:string,
     extra2:string,
     extra3:string,

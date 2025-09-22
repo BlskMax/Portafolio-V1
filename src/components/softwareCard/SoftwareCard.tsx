@@ -58,6 +58,8 @@ function SoftwareCard({ software }: ISoftwareProps) {
                     </div>
                 </div>
 
+                
+
                 <section className={bungee.className}>
                 <div className="flex flex-row justify-between uppercase border-b-2 border-dotted
                 md:w-[28vw] p-2 ">

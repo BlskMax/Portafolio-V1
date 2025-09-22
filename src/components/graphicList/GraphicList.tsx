@@ -56,7 +56,7 @@ function GraphicList({ graphics }: IGraphicThingListProps) {
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-x-[4vw] gap-y-[2vh] px-[2vw]">
-        {filteredGraphics.map((graphic: IGraphicThing) => (
+        {filteredGraphics.slice().reverse().map((graphic: IGraphicThing) => (
           <GraphicCard graphic={graphic} key={`${graphic.name}-${graphic.image}`} />
         ))}
       </div>

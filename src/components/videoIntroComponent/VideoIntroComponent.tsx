@@ -48,12 +48,18 @@ export default function VideoIntroComponent() {
         </h1>
         <div>
           <h1 className={`${shippori.variable} text-4xl leading-[8vh] underline decoration-red-800  `}>
+            From simple stuff like doing subtitles all the way to music video production.
+            Either you need a simple editing job, need me to be part of a 
+            bigger team or takeover an entire project just give me a
+            heads up and let's make it look amazing!
+          </h1>  
+          {/* <h1 className={`${shippori.variable} text-4xl leading-[8vh] underline decoration-red-800  `}>
             Desde subtitulado para reels hasta videos musicales.
             Si necesitas un trabajo pequeño de edición, incluirme en
             un equipo o llevar a cabo todo un proyecto pongamonos en
             contacto y
             lleguemos a un acuerdo!
-          </h1>  
+          </h1>   */}
         </div>
       </div>
 

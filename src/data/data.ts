@@ -14,6 +14,7 @@ export const allSoftwareList: ISoftware[] = [
         altImage:"/images/shortPrev.jpg",
         type:"freelance",
         description:"B-SHORT is the archetype of a highly customizable webpage wich can be sold to different artists and talents to show all of their products and content to their audience, giving them a space to share content without any conventional social media restrains.  ",
+        screenshots:true,
         extra1:"/images/screenshots/shortX1.jpg",
         extra2:"/images/screenshots/shortX2.jpg",
         extra3:"/images/screenshots/shortX3.jpg",
@@ -59,6 +60,7 @@ export const allSoftwareList: ISoftware[] = [
         altImage:"/images/comiPrev.png",
         type:"Institutional",
         description:"ComiCraft is a webpage used for uploading and reading comics online based around a subscription service useful to preserve comics and make such media more easily accessible. I was also in charge of the design and general aesthetic.",
+        screenshots:true,
         extra1:"/images/screenshots/comicX1.jpg",
         extra2:"/images/screenshots/comicX2.jpg",
         extra3:"/images/screenshots/comicX3.jpg",
@@ -84,6 +86,7 @@ export const allSoftwareList: ISoftware[] = [
         altImage:"/images/smPrev.png",
         type:"Institutional",
         description:"SM was my very first E-Commerce and visually the project i'm more proud of. It's a fairly common project where you can create accounts, add products to a cart and make a simulated checkout. Given there weren't any obvious design line to follow I deicded to make a more experimental branding, giving Sky Market an out of the roof personality.",
+        screenshots:true,
         extra1:"/images/screenshots/skyX1.jpg",
         extra2:"/images/screenshots/skyX2.jpg",
         extra3:"/images/screenshots/skyX3.jpg",
@@ -109,6 +112,7 @@ export const allSoftwareList: ISoftware[] = [
         altImage:"/images/eliPrev.png",
         type:"Institutional",
         description:"I had an assigment to make a webpage to schedule appointments to any kind of stablishment, and a bank was the obvious pick for me. I love getting into especific markets and minsets, and making a fake bank was awesome for training, this was a great way to get out of the comfort zone and try new stuff.  ",
+        screenshots:true,
         extra1:"/images/screenshots/elyX1.jpg",
         extra2:"/images/screenshots/elyX2.jpg",
         extra3:"/images/screenshots/elyX3.jpg",
@@ -135,10 +139,11 @@ export const allSoftwareList: ISoftware[] = [
         altImage:"/images/frPrev.png",
         type:"Institutional",
         description:"This is my very first project, a website for users to build a database with movie information through a friendly UI. Here I discovered how much I love web development and UI/UX design. It still looks pretty good to this day.",
-        extra1:"/images/screenshots/skyX4.jpg",
-        extra2:"/images/screenshots/skyX4.jpg",
-        extra3:"/images/screenshots/skyX4.jpg",
-        extra4:"/images/screenshots/skyX4.jpg",
+        screenshots:false,
+        extra1:"/images/screenshots/skyX4.jp",
+        extra2:"/images/screenshots/skyX4.jp",
+        extra3:"/images/screenshots/skyX4.jp",
+        extra4:"/images/screenshots/skyX4.jp",
         tech1:"/images/htmlPng.png",
         tech2:"/images/cssPng.png",
         tech3:"/images/jsPNG.png",
@@ -156,11 +161,12 @@ export const allGraphicList: IGraphicThing[] = [
 
     {
         id:100,
-        name:"Pld Portada",
+        name:"P.L.D COVER ART",
         type:"Cover Art",
         image:"/images/works/prePDS4.jpg",
-        list:"musica",
+        list:"music",
     },
+    
     {
         id:101,
         name:"Metanoia Banner",
@@ -170,45 +176,45 @@ export const allGraphicList: IGraphicThing[] = [
     },
     {
         id:102,
-        name:"PLD Arte Promocional",
+        name:"P.L.D Promo",
         type:"Promotional Art",
         image:"/images/works/farCover.jpg",
-        list:"musica",
+        list:"music",
     },
     {
         id:103,
-        name:"Powerdrill Flyer Mayo",
-        type:"show flyer",
+        name:"Powerdrill Flyer May",
+        type:"Flyer",
         image:"/images/works/flyCafe1.jpg",
-        list:"musica",
+        list:"music",
     },
     {
         id:104,
-        name:"Oppenheimer Miniatura",
+        name:"Oppenheimer THUMBNAIL",
         type:"Youtube Thumbnail",
         image:"/images/works/oppen_mini.jpg",
         list:"youtube",
     },
     {
         id:105,
-        name:"Coagula Arte Promo",
+        name:"Coagula Promo",
         type:"Promotional art",
         image:"/images/works/cocoagua.jpg",
-        list:"musica",
+        list:"music",
     },
     {
         id:106,
-        name:"Pink Tarjeta de Titulo",
+        name:"Pink Machine Title Card",
         type:"Music Video Title card",
         image:"/images/works/pinkThumb.jpg",
-        list:"musica",
+        list:"music",
     },
     {
         id:107,
-        name:"CRISTAL Arte PROMO",
+        name:"CRISTAL PROMO",
         type:"PROMOTIONAL ART",
         image:"/images/works/cristProm.jpg",
-        list:"musica",
+        list:"music",
     },
     {
         id:108,
@@ -219,7 +225,7 @@ export const allGraphicList: IGraphicThing[] = [
     },
     {
         id:110,
-        name:"Tortugas Miniatura",
+        name:"Mutant THUMBNAIL",
         type:"youtube Thumbnail",
         image:"/images/works/tortu_mini.jpg",
         list:"youtube",
@@ -235,10 +241,10 @@ export const allGraphicList: IGraphicThing[] = [
 
     {
         id:113,
-        name:"Farwell Portada",
+        name:"Farwell Cover Art",
         type:"Cover art",
         image:"/images/works/periArt.jpg",
-        list:"musica",
+        list:"music",
     },
     // {
     //     id:103,
@@ -251,7 +257,7 @@ export const allGraphicList: IGraphicThing[] = [
         name:"PV PK-2025",
         type:"Press-kit",
         image:"/images/works/pvPk2.png",
-        list:"musica",
+        list:"music",
     },
     {
         id:115,
@@ -263,16 +269,16 @@ export const allGraphicList: IGraphicThing[] = [
     {
         id:116,
         name:"PV Flyer",
-        type:"Band-Flyer",
+        type:"Flyer",
         image:"/images/works/tech.jpg",
-        list:"musica",
+        list:"music",
     },
     {
         id:117,
         name:"Butcher Promo",
         type:"Promotional art",
         image:"/images/works/protoButher.jpg",
-        list:"musica",
+        list:"music",
     },
     {
         id:118,
@@ -286,7 +292,7 @@ export const allGraphicList: IGraphicThing[] = [
         name:"Bloodskull Logo",
         type:"Band logo",
         image:"/images/works/bl_log1.jpg",
-        list:"musica",
+        list:"music",
     },
     {
         id:120,
@@ -297,7 +303,7 @@ export const allGraphicList: IGraphicThing[] = [
     },
     {
         id:121,
-        name:"BEAU Miniatura",
+        name:"BEAU THUMBNAIL",
         type:"Youtube thumbnail",
         image:"/images/works/beau_mini.jpg",
         list:"youtube",
@@ -314,21 +320,21 @@ export const allGraphicList: IGraphicThing[] = [
         name:"BloodSkull LOGO",
         type:"Band logo",
         image:"/images/works/bl_log2.jpg",
-        list:"musica",
+        list:"music",
     },
     {
         id:124,
-        name:"Void Portada",
+        name:"Void Cover Art",
         type:"Cover art",
         image:"/images/works/bl_art1.jpg",
-        list:"musica",
+        list:"music",
     },
     {
         id:125,
-        name:"Rat Meat Portada",
+        name:"Rat Meat Cover Art",
         type:"Cover art",
         image:"/images/works/bl_art2.jpg",
-        list:"musica",
+        list:"music",
     },
     {
         id:126,
@@ -353,45 +359,115 @@ export const allGraphicList: IGraphicThing[] = [
     },
     {
         id:129,
-        name:"TLOU Miniatura",
+        name:"TLOU THUMBNAIL",
         type:"youtube thumbnail",
         image:"/images/works/tlou.jpg",
         list:"youtube",
     },
     {
         id:130,
-        name:"Destino Miniatura",
+        name:"Destination THUMBNAIL",
         type:"youtube thumbnail",
         image:"/images/works/destino.jpg",
         list:"youtube",
     },
     {
         id:129,
-        name:"sinners Miniatura",
+        name:"sinners THUMBNAIL",
         type:"youtube thumbnail",
         image:"/images/works/sinners.jpg",
         list:"youtube",
     },
     {
         id:129,
-        name:"thunder Miniatura",
+        name:"thunder THUMBNAIL",
         type:"youtube thumbnail",
         image:"/images/works/thunder.jpg",
         list:"youtube",
     },
     {
         id:129,
-        name:"Doble Miniatura",
+        name:"Doble THUMBNAIL",
         type:"youtube thumbnail",
         image:"/images/works/dobFeat.png",
         list:"youtube",
     },
     {
         id:129,
-        name:"PV FLYER JULio",
+        name:"PV FLYER JULY",
+        type:"Flyer",
+        image:"/images/works/farewellFlyer4Julio.jpg",
+        list:"music",
+    },
+    {
+        id:129,
+        name:"28 THUMBNAIL",
         type:"youtube thumbnail",
-        image:"/images/works/caribeJuly.jpg",
-        list:"musica",
+        image:"/images/works/28DaysThumb2.jpg",
+        list:"youtube",
+    },
+    {
+        id:129,
+        name:"Fantastic 4 THUMBNAIL",
+        type:"youtube thumbnail",
+        image:"/images/works/MINIATURA_FANTASTICA.jpg",
+        list:"youtube",
+    },
+    {
+        id:129,
+        name:"Superman THUMBNAIL",
+        type:"youtube thumbnail",
+        image:"/images/works/supeBasic.jpg",
+        list:"youtube",
+    },
+    {
+        id:129,
+        name:"PV Acoustic",
+        type:"flyer",
+        image:"/images/works/powerjuneAcouAhoraSi.jpg",
+        list:"music",
+    },
+    {
+        id:129,
+        name:"Caribe Anniversary",
+        type:"flyer",
+        image:"/images/works/anivCaribeFinalColor1.jpg",
+        list:"music",
+    },
+    {
+        id:129,
+        name:"Alt Caribe Anniversary",
+        type:"flyer",
+        image:"/images/works/CARIBE_PSYC_2.jpg",
+        list:"music",
+    },
+    {
+        id:129,
+        name:"Powerdrill Anniversary",
+        type:"flyer",
+        image:"/images/works/proto_wom_2.jpg",
+        list:"music",
+    },
+    {
+        id:129,
+        name:"Eddington THUMBNAIL",
+        type:"youtube thumbnail",
+        image:"/images/works/EDDINGTON_MINIATURA_1.jpg",
+        list:"youtube",
+    },
+    {
+        id:129,
+        name:"Fallout THUMBNAIL",
+        type:"youtube thumbnail",
+        image:"/images/works/FALLOUT_MINIATURA_2.jpg",
+        list:"youtube",
+    },
+    {
+        id:129,
+        name:"Jackass THUMBNAIL",
+        type:"youtube thumbnail",
+        image:"/images/works/JACKASS_MINIATURA_CHILA.jpg",
+        list:"youtube",
     },
 ]
 
@@ -426,8 +502,8 @@ export const allVideos: IVideoThing[] = [
     {
     id:1,
     name:"COAGULA LYRIC VIDEO",
-    type:"VIDEO MUSICAL",
-    list:"MUSICA",
+    type:"LYRIC VIDEO",
+    list:"MUSIC",
     image:"/images/works/coagThumb.jpg",
     link:"https://www.youtube.com/watch?v=lD10-aE8S20"
     },
@@ -435,8 +511,8 @@ export const allVideos: IVideoThing[] = [
     {
     id:2,
     name:"Pink Machine",
-    type:"VIDEO MUSICAL",
-    list:"MUSICA",
+    type:"MUSIC VIDEO",
+    list:"MUSIC",
     image:"/images/works/pinkThumb2.jpg",
     link:"https://www.youtube.com/watch?v=tZGwVhhlTRc"
     },
@@ -444,7 +520,7 @@ export const allVideos: IVideoThing[] = [
         {
     id:2,
     name:"SINNERS",
-    type:"CRITICA CINE",
+    type:"MOVIE REVIEW",
     list:"VLOG",
     image:"/images/works/sinners.jpg",
     link:"https://youtu.be/ZfVUDp5MKw0?si=ur99qdtR8C0VQLKC"
@@ -453,7 +529,7 @@ export const allVideos: IVideoThing[] = [
     {
     id:2,
     name:"THUNDERBOLTS",
-    type:"CRITICA CINE",
+    type:"MOVIE REVIEW",
     list:"VLOG",
     image:"/images/works/thunder.jpg",
     link:"https://www.youtube.com/watch?v=SkMNHLwnICo"
@@ -463,7 +539,7 @@ export const allVideos: IVideoThing[] = [
     {
     id:2,
     name:"DESTINO FINAL",
-    type:"CRITICA CINE",
+    type:"MOVIE REVIEW",
     list:"VLOG",
     image:"/images/works/destino.jpg",
     link:"https://www.youtube.com/watch?v=w9FGVXXO2pE"
@@ -472,7 +548,7 @@ export const allVideos: IVideoThing[] = [
     {
     id:2,
     name:"TLOU S2",
-    type:"CRITICA CINE",
+    type:"MOVIE REVIEW",
     list:"VLOG",
     image:"/images/works/tlou.jpg",
     link:"https://www.youtube.com/watch?v=2WEQblaS2Ug"
@@ -481,9 +557,36 @@ export const allVideos: IVideoThing[] = [
     {
     id:2,
     name:"OPPENHEIMER",
-    type:"CRITICA CINE",
+    type:"MOVIE REVIEW",
     list:"VLOG",
     image:"/images/works/oppen_mini.jpg",
     link:"https://youtu.be/sm2J2qgvoC8?si=I9lO1nKs2Mmz6J5P"
+    },
+    
+    {
+    id:2,
+    name:"28 YEARS LATER",
+    type:"MOVIE REVIEW",
+    list:"VLOG",
+    image:"/images/works/28DaysThumb2.jpg",
+    link:"https://youtu.be/CSLj9UeyZjQ"
+    },
+    
+    {
+    id:2,
+    name:"SUPERMAN",
+    type:"MOVIE REVIEW",
+    list:"VLOG",
+    image:"/images/works/supeBasic.jpg",
+    link:"https://youtu.be/T9mWkiqwcWs"
+    },
+    
+    {
+    id:2,
+    name:"FANTASTIC 4",
+    type:"MOVIE REVIEW",
+    list:"VLOG",
+    image:"/images/works/MINIATURA_FANTASTICA.jpg",
+    link:"https://youtu.be/asaCawYUWUM"
     },
 ]
