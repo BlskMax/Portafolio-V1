@@ -44,7 +44,7 @@ export default function VideoIntroComponent() {
 
       <div className={`${bebas.variable} font-sans w-[40vw] flex flex-col text-center `}>
         <h1 className="text-6xl border-2 border-red-800 p-4 mb-[4vh]">
-        Edición/producción de vídeo
+        Editing/Video Production
         </h1>
         <div>
           <h1 className={`${shippori.variable} text-4xl leading-[8vh] underline decoration-red-800  `}>
