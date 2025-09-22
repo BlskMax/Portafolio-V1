@@ -37,20 +37,20 @@ export default function Navbar() {
 
 
             {pathname === '/graphicDesign' ? (
-              <button type="button" onClick={() => router.push('/graphicDesign')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>DISEÑO</button>
+              <button type="button" onClick={() => router.push('/graphicDesign')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>DESIGN</button>
             ) : (
-              <button type="button" onClick={() => router.push('/graphicDesign')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>DISEÑO</button>
+              <button type="button" onClick={() => router.push('/graphicDesign')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>DESIGN</button>
             )}
 
             {pathname === '/softwareDev' ? (
-              <button type="button" onClick={() => router.push('/softwareDev')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>SOFTWARE</button>
+              <button type="button" onClick={() => router.push('/softwareDev')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>WEB</button>
             ) : (
-              <button type="button" onClick={() => router.push('/softwareDev')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>SOFTWARE</button>
+              <button type="button" onClick={() => router.push('/softwareDev')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>WEB</button>
             )}
             {pathname === '/contactPage' ? (
-              <button type="button" onClick={() => router.push('/contactPage')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>CONTACTO</button>
+              <button type="button" onClick={() => router.push('/contactPage')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>CONTACT</button>
             ) : (
-              <button type="button" onClick={() => router.push('/contactPage')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>CONTACTO</button>
+              <button type="button" onClick={() => router.push('/contactPage')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>CONTACT</button>
             )}
 
 

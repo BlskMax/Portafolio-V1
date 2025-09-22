@@ -49,7 +49,7 @@ export default function HomeButtons() {
                 className={`${bebas.variable} font-sans text-7xl font-bold text-black 
                 bg-white p-4 w-[60vh]
                 hover:scale-105 hover:bg-red-800 duration-300 `}>
-                SOFTWARE</button>
+                WEB DEV</button>
 
             </div>
 
