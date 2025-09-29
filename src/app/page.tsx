@@ -10,8 +10,9 @@ import SkillsComponent from "@/components/skillsComponent";
 import SkyCard from "@/components/skyCard";
 import { Josefin_Sans, Roboto_Condensed } from "next/font/google";
 import React from "react";
-import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import { ImMail4 } from "react-icons/im";
+import { TbBrandFiverr } from "react-icons/tb";
 
 const josefin = Josefin_Sans({
   subsets:['latin'],
@@ -58,6 +59,16 @@ export default function Home() {
               className="rounded-2xl duration-500 hover:scale-105" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-white text-4xl md:text-7xl hover:text-red-700 duration-500" />
             </a>
+
+            <a href="https://www.fiverr.com/s/rEk8NZr"
+              className="rounded-2xl duration-500 hover:scale-105" target="_blank" rel="noopener noreferrer">
+              <TbBrandFiverr className="text-white text-4xl md:text-7xl hover:text-red-700 duration-500" />
+            </a>
+
+            <a href="https://www.instagram.com/blsk_max/"
+              className="rounded-2xl duration-500 hover:scale-105" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="text-white text-4xl md:text-7xl hover:text-red-700 duration-500" />
+            </a>
           </div>
         </div>
       </section>
@@ -75,10 +86,8 @@ export default function Home() {
   </video>
 
   <div className={`${robotoCond.className} w-[60vw]`}>
-  <h1 className="relative z-10 text-red-600 text-4xl font-bold px-4 ">
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis aliquid sed,
-    fuga labore recusandae enim odio assumenda dignissimos provident reiciendis
-    autem nesciunt. Commodi repellat magnam nemo fugiat repellendus facere molestias!
+  <h1 className="relative z-10 text-red-600 text-2xl font-bold px-4 ">
+  I'm Max, a video editor and graphic designer from México. I live and die for art, and fortunately in the last few years i've been able to colaborate in many projects through video production, coding, graphic assets, general planning, direction and many more. I'm always looking forward for the next project where I can participate, so feel free to drop me a message and let me know how can I help you in order to make your projects look awesome ;)
   </h1>
   </div>
 </section>
