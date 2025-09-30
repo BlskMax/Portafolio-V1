@@ -2,6 +2,7 @@ import BandCard from "@/components/bandCard";
 import ComicCard from "@/components/comicCard";
 import ContactComponent from "@/components/contactComponent/ContactComponent";
 import EliCard from "@/components/eliCard";
+import FixedContactComponent from "@/components/fixedContactComponent/FixedContactComponent";
 import FlickCard from "@/components/flickCard";
 import HomeButtons from "@/components/homeButtons/HomeButtons";
 import Card from "@/components/preview/preview";
@@ -98,7 +99,7 @@ export default function Home() {
       </section>
 
       <section>
-        <ContactComponent />
+        <FixedContactComponent />
       </section>
     </main>
   );

@@ -1,4 +1,5 @@
 import ContactComponent from "@/components/contactComponent/ContactComponent";
+import FixedContactComponent from "@/components/fixedContactComponent/FixedContactComponent";
 import GraphicList from "@/components/graphicList/GraphicList";
 import { allGraphicList} from "@/data/data";
 import { IGraphicThing } from "@/interfaces";
@@ -11,8 +12,8 @@ import { IGraphicThing } from "@/interfaces";
 
     <div className="w-screen h-auto">
 
-        <ContactComponent />
-
+        {/* <ContactComponent /> */}
+      <FixedContactComponent />
     </div>  
 
 

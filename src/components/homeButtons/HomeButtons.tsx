@@ -30,7 +30,7 @@ export default function HomeButtons() {
 
     return (
         <>
-        <main className="md:mt-[65vh] mt-[33vh] md:mb-[5vh] " >
+        <main className="md:mt-[65vh] mt-[33vh]  " >
             <div className=" flex md:justify-evenly flex-row  justify-evenly   ">
 
                 <button type="button" onClick={() => router.push('/graphicDesign')}

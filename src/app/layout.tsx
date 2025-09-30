@@ -1,14 +1,13 @@
+'use client'
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
+import { NavProvider } from "@/context/NavContext";
+import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "Max Galarza",
-  description: "",
-};
 
 export default function RootLayout({
   children,
@@ -18,11 +17,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-absolute-black">
       <Navbar />
-      {/* <div className={ ? "mt-40" : "mt-16"}> */}
       <body className={`${inter.className} bg-black text-white `}>
         {children}
       </body>
-      {/* </div> */}
     </html>
   );
 }
