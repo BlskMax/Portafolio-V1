@@ -34,7 +34,7 @@ function GraphicList({ graphics }: IGraphicThingListProps) {
   return (
     <main className={`${bebas.className} w-screen mt-[10vh] flex flex-col items-center mb-[10vh]`}>
       <div className={bebas.className}>
-        <h1 className="text-8xl border-2 border-red-800 p-4 mb-[4vh]">Graphic Design</h1>
+        <h1 className="md:text-8xl text-6xl border-2 border-red-800 p-4 mb-[4vh]">Graphic Design</h1>
       </div>
 
       <div className="flex flex-wrap justify-center gap-4 mb-[5vh] px-4">

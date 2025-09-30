@@ -32,7 +32,7 @@ export default function ContactComponent() {
 
     return (
         <>
- <section id="contact" className={`${shippori.className} uppercase flex flex-col md:mt-16 mt-[46vh] p-4 border-t-2 border-white border-opacity-40 `}>
+ <section id="contact" className={`${shippori.className} uppercase flex flex-col md:mt-16 mt-[0vh] p-4 border-t-2 border-white border-opacity-40 `}>
         <img
           src="/images/lets.png"
           className="md:w-[50vw] h-auto mb-4 rounded-md mx-auto md:mt-[4vh] mt-[4vh] "

@@ -30,27 +30,27 @@ export default function HomeButtons() {
 
     return (
         <>
-        <main className="mt-[5vh] mb-[5vh]" >
-            <div className=" flex justify-evenly ">
+        <main className="md:mt-[65vh] mt-[33vh] md:mb-[5vh] " >
+            <div className=" flex md:justify-evenly flex-row  justify-evenly   ">
 
                 <button type="button" onClick={() => router.push('/graphicDesign')}
-                className={`${bebas.variable} font-sans text-7xl font-bold text-black 
-                bg-white p-4 w-[60vh]
-                hover:scale-105 hover:bg-red-800 duration-300
+                className={`${bebas.variable} font-sans md:text-7xl text-lg font-bold text-black 
+                bg-white md:p-4 md:w-[60vh] w-[24vw] md:mb-0 mb-[2vh] md:h-auto h-[5vh]
+                hover:scale-105 hover:bg-red-800 duration-300 md:rounded-none rounded-lg
                 hover:text-white`}>
                 GRAPHIC DESIGN</button>
 
                 <button type="button" onClick={() => router.push('/video')}
-                className={`${bebas.variable} font-sans text-7xl font-bold text-black 
-                bg-white p-4 w-[60vh]
-                hover:scale-105 hover:bg-red-800 duration-300
+                className={`${bebas.variable} font-sans md:text-7xl text-lg  font-bold text-black 
+                bg-white md:p-4 md:w-[60vh] w-[24vw] md:mb-0 mb-[2vh] md:h-auto h-[5vh]
+                hover:scale-105 hover:bg-red-800 duration-300 md:rounded-none rounded-lg 
                 hover:text-white`}>
                 VIDEO</button>
 
                 <button type="button" onClick={() => router.push('/softwareDev')}
-                className={`${bebas.variable} font-sans text-7xl font-bold text-black 
-                bg-white p-4 w-[60vh]
-                hover:scale-105 hover:bg-red-800 duration-300
+                className={`${bebas.variable} font-sans md:text-7xl text-lg  font-bold text-black 
+                bg-white md:p-4 md:w-[60vh] w-[24vw] md:h-auto h-[5vh] 
+                hover:scale-105 hover:bg-red-800 duration-300 md:rounded-none rounded-lg
                 hover:text-white  `}>
                 WEB DEV</button>
 
