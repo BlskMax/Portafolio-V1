@@ -501,7 +501,7 @@ export const allContacts: IContact[] = [
 export const allVideos: IVideoThing[] = [
     {
     id:1,
-    name:"COAGULA LYRIC VIDEO",
+    name:"COAGULA MEGAN ",
     type:"LYRIC VIDEO",
     list:"MUSIC",
     image:"/images/works/coagThumb.jpg",

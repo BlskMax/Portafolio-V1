@@ -36,19 +36,22 @@ export default function HomeButtons() {
                 <button type="button" onClick={() => router.push('/graphicDesign')}
                 className={`${bebas.variable} font-sans text-7xl font-bold text-black 
                 bg-white p-4 w-[60vh]
-                hover:scale-105 hover:bg-red-800 duration-300 `}>
+                hover:scale-105 hover:bg-red-800 duration-300
+                hover:text-white`}>
                 GRAPHIC DESIGN</button>
 
                 <button type="button" onClick={() => router.push('/video')}
                 className={`${bebas.variable} font-sans text-7xl font-bold text-black 
                 bg-white p-4 w-[60vh]
-                hover:scale-105 hover:bg-red-800 duration-300 `}>
+                hover:scale-105 hover:bg-red-800 duration-300
+                hover:text-white`}>
                 VIDEO</button>
 
                 <button type="button" onClick={() => router.push('/softwareDev')}
                 className={`${bebas.variable} font-sans text-7xl font-bold text-black 
                 bg-white p-4 w-[60vh]
-                hover:scale-105 hover:bg-red-800 duration-300 `}>
+                hover:scale-105 hover:bg-red-800 duration-300
+                hover:text-white  `}>
                 WEB DEV</button>
 
             </div>

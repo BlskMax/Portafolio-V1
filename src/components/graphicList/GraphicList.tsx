@@ -42,7 +42,7 @@ function GraphicList({ graphics }: IGraphicThingListProps) {
           onClick={() => setFilter('all')}
           className={`rounded-lg text-3xl px-4 py-2 uppercase ${filter === 'all' ? 'bg-red-800 text-white' : 'bg-red-800 text-black'} transition-all duration-300 hover:scale-110`}
         >
-          Todo
+          All
         </button>
         {lists.map(list => (
           <button

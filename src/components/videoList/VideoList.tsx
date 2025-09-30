@@ -39,22 +39,26 @@ function VideoList({ videos }: IVideoThingListProps) {
       <div className="flex flex-wrap justify-center gap-4 mb-[5vh] px-4">
         <button
           onClick={() => setFilter('all')}
-          className={`rounded-lg text-3xl px-4 py-2 uppercase ${filter === 'all' ? 'bg-red-800 text-white' : 'bg-red-800 text-black'} transition-all duration-300 hover:scale-110`}
+          className={`rounded-lg md:text-3xl md:px-4 md:py-2
+            text-2xl px-3 py-1
+            uppercase ${filter === 'all' ? 'bg-red-800 text-white' : 'bg-red-800 text-black'} transition-all duration-300 hover:scale-110`}
         >
-            Todo
+            All
         </button>
         {lists.map(list => (
           <button
             key={list}
             onClick={() => setFilter(list)}
-            className={`rounded-lg text-3xl px-4 py-2 uppercase ${filter === list ? 'bg-red-800 text-white' : 'bg-red-800 text-black'} transition-all duration-300 hover:scale-110`}
+            className={`rounded-lg md:text-3xl md:px-4 md:py-2
+              text-2xl px-3 py-1
+               uppercase ${filter === list ? 'bg-red-800 text-white' : 'bg-red-800 text-black'} transition-all duration-300 hover:scale-110`}
           >
             {list}
           </button>
         ))}
       </div>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-x-[4vw] gap-y-[2vh] px-[2vw]">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-[4vw] gap-y-[2vh] px-[2vw]">
         {filteredVideos.map((video: IVideoThing) => (
           <VideoCard video={video} key={`${video.name}-${video.image}`} />
         ))}

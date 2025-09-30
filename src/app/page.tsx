@@ -22,7 +22,7 @@ const josefin = Josefin_Sans({
 
 const robotoCond = Roboto_Condensed({
   subsets:['latin'],
-  weight: ['400'],
+  weight: ['700'],
   variable: '--font-bebas',
 });
 
@@ -87,7 +87,7 @@ export default function Home() {
 
   <div className={`${robotoCond.className} w-[60vw]`}>
   <h1 className="relative z-10 text-red-600 text-2xl font-bold px-4 ">
-  I'm Max, a video editor and graphic designer from México. I live and die for art, and fortunately in the last few years i've been able to colaborate in many projects through video production, coding, graphic assets, general planning, direction and many more. I'm always looking forward for the next project where I can participate, so feel free to drop me a message and let me know how can I help you in order to make your projects look awesome ;)
+  I'm Max, a video editor and graphic designer from México. I live and die for art, fortunately in the last few years i've been able to colaborate in many projects through video production, coding, graphic assets, general planning, direction and many more. I'm always looking forward to join new and exciting projects, so feel free to check my work and drop a message through any of the listed profiles. Let me know how can I be of help to make your projects look awesome ;)
   </h1>
   </div>
 </section>

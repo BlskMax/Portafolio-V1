@@ -32,25 +32,26 @@ export default function VideoIntroComponent() {
 
     return (
     
-        <section className=" w-[90vw] flex flex-row-reverse ml-auto mr-auto justify-between">
+        <section className=" w-[90vw] flex md:flex-row-reverse flex-col-reverse ml-auto mr-auto justify-between">
 
-        <div className="flex flex-row space-x-[1vw]"> 
+        <div className="flex flex-row space-x-[1vw] ml-auto mr-auto md:ml-0 md:mr-0">  
           <img src="/images/works/subGif.gif"
-          className="md:w-[16vw]" />
+          className="md:w-[16vw] w-[25vw] h-auto " />
           <img src="/images/works/pinkGif.gif"
-          className="md:w-[28vw]" />
+          className="md:w-[28vw] w-[47vw] h-auto " />
 
         </div>
 
-      <div className={`${bebas.variable} font-sans w-[40vw] flex flex-col text-center `}>
-        <h1 className="text-6xl border-2 border-red-800 p-4 mb-[4vh]">
+      <div className={`${bebas.variable} font-sans md:w-[40vw] w-[90vw] flex flex-col text-center md:mt-0 `}>
+        <h1 className="text-4xl border-2 border-red-800 md:p-4 p-2 md:mb-[4vh] mb-[2vh]
+        md:text-6xl ">
         Editing/Video Production
         </h1>
         <div>
-          <h1 className={`${shippori.variable} text-4xl leading-[8vh] underline decoration-red-800  `}>
+          <h1 className={`${shippori.variable} md:text-4xl text-xl md:leading-[6vh] leading-[3vh] underline decoration-red-900 md:mb-0 mb-[2vh]  `}>
             From simple stuff like doing subtitles all the way to music video production.
-            Either you need a simple editing job, need me to be part of a 
-            bigger team or takeover an entire project just give me a
+            Either you want just a simple editing job, need someone to be part of a 
+            bigger team or to start a project from zero, just give me a
             heads up and let's make it look amazing!
           </h1>  
           {/* <h1 className={`${shippori.variable} text-4xl leading-[8vh] underline decoration-red-800  `}>
