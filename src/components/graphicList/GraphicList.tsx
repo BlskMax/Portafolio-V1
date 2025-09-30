@@ -32,7 +32,7 @@ function GraphicList({ graphics }: IGraphicThingListProps) {
   }, [filter, graphics]);
 
   return (
-    <main className={`${bebas.className} w-screen mt-[10vh] flex flex-col items-center mb-[10vh]`}>
+    <main className={`${bebas.className} w-screen mt-[10vh] flex flex-col items-center mb-[10vh] text-center`}>
       <div className={bebas.className}>
         <h1 className="md:text-8xl text-6xl border-2 border-red-800 p-4 mb-[4vh]">Graphic Design</h1>
       </div>
@@ -40,7 +40,9 @@ function GraphicList({ graphics }: IGraphicThingListProps) {
       <div className="flex flex-wrap justify-center gap-4 mb-[5vh] px-4">
         <button
           onClick={() => setFilter('all')}
-          className={`rounded-lg text-3xl px-4 py-2 uppercase ${filter === 'all' ? 'bg-red-800 text-white' : 'bg-red-800 text-black'} transition-all duration-300 hover:scale-110`}
+          className={`rounded-lg md:text-3xl md:px-4 md:py-2
+            text-2xl px-3 py-1
+            uppercase ${filter === 'all' ? 'bg-red-800 text-white' : 'bg-red-800 text-black'} transition-all duration-300 hover:scale-110`}
         >
           All
         </button>
@@ -48,7 +50,9 @@ function GraphicList({ graphics }: IGraphicThingListProps) {
           <button
             key={list}
             onClick={() => setFilter(list)}
-            className={`rounded-lg text-3xl px-4 py-2 uppercase ${filter === list ? 'bg-red-800 text-white' : 'bg-red-800 text-black'} transition-all duration-300 hover:scale-110`}
+            className={`rounded-lg md:text-3xl md:px-4 md:py-2
+              text-2xl px-3 py-1
+              uppercase ${filter === list ? 'bg-red-800 text-white' : 'bg-red-800 text-black'} transition-all duration-300 hover:scale-110`}
           >
             {list}
           </button>

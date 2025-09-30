@@ -28,7 +28,7 @@ function GraphicCard({ graphic }: IGraphicThingProps) {
   return (
     <>
       <main className={`${bungee.className} flex md:flex-col flex-col items-center uppercase border-b-2 border-dotted pb-[3vh]`}>
-        <h1 className="md:text-lg mt-[1vh] border-b-2 border-red-800 mb-[2vh] pb-1">
+        <h1 className="md:text-lg mt-[1vh] border-b-2 border-red-800 md:mb-[2vh] pb-1">
           {graphic.name}
         </h1>
 
@@ -36,10 +36,10 @@ function GraphicCard({ graphic }: IGraphicThingProps) {
           src={graphic.image}
           alt={graphic.name}
           onClick={() => setIsOpen(true)}
-          className="md:w-[20vw] md:h-[50vh] w-[36vw] h-[18vh] object-contain mb-[2vh] cursor-pointer transition-transform hover:scale-105 duration-300"
+          className="md:w-[20vw] md:h-[50vh] w-[36vw] h-[15vh] object-contain md:mb-[2vh] cursor-pointer transition-transform hover:scale-105 duration-300"
         />
 
-        <h1 className="md:text-xl text-red-800 mt-[1vh] mb-[1vh] border-2 p-2">
+        <h1 className="md:text-xl text-sm text-red-800 md:mt-[1vh] md:mb-[1vh] md:border md:p-2">
           {graphic.type}
         </h1>
       </main>

@@ -18,9 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-absolute-black">
       <Navbar />
-      <body className={`${inter.className} bg-black text-white`}>
+      {/* <div className={ ? "mt-40" : "mt-16"}> */}
+      <body className={`${inter.className} bg-black text-white `}>
         {children}
       </body>
+      {/* </div> */}
     </html>
   );
 }
