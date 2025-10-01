@@ -37,7 +37,7 @@ export default function Home() {
           muted
           preload="auto"
           disablePictureInPicture
-          className="absolute top-0 left-0  md:w-screen md:h-screen  object-cover"
+          className="absolute top-0 left-0  md:w-screen md:h-screen  object-fill"
         >
           <source src="/video/PORTAFOLIO_VHS_lightr.mp4" type="video/mp4" />
         </video>
@@ -87,8 +87,8 @@ export default function Home() {
   </video>
 
   <div className={`${robotoCond.className} md:w-[60vw] w-[80vw] `}>
-  <h1 className="relative md:z-10 text-red-600 md:text-2xl font-bold md:px-4 text-[1.4vh] ">
-  I'm Max, a video editor and graphic designer from México. I live and die for art, fortunately in the last few years i've been able to colaborate in many projects through video production, coding, graphic assets, general planning, direction and many more. I'm always looking forward to join new and exciting projects, so feel free to check my work and drop a message through any of the listed profiles. Let me know how can I be of help to make your projects look awesome ;)
+  <h1 className="relative md:z-10 text-red-600 md:text-2xl font-bold md:px-4 text-[1.6vh] ">
+  I'm Max, a video editor and graphic designer from México. I'm madly in love with art and fortunately in the last few years i've been able to colaborate in many projects through video production, coding, graphic assets, general planning, direction and many more. I'm always looking forward to join new and exciting projects, so feel free to check my work and drop a message through any of the listed profiles. Let me know how can I be of help to make your projects feel great ;)
   </h1>
   </div>
 </section>

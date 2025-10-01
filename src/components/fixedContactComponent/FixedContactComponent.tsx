@@ -34,7 +34,7 @@ export default function FixedContactComponent () {
 <>
         {pathname === '/' ? (
 
-            <section id="contact" className={`${bebas.className} md:mt-[15vh] mt-[2vh] `}>
+            <section id="contact" className={`${bebas.className} md:mt-[15vh] mt-[2vh]`}>
           <img
           src="/images/lets.png"
           className="md:w-[50vw] h-auto ml-auto mr-auto md:mb-[6vh] mb-[2vh]"/>

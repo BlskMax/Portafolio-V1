@@ -23,11 +23,11 @@ function SoftwareList ({softwares}: ISoftwareListProps) {
 
         <div className={bebas.className}>
                     <h1
-                    className=" text-8xl border-2 border-red-800 p-4 mb-[8vh] "
+                    className=" md:text-8xl text-5xl border-2 border-red-800 p-4 md:mb-[8vh] mb-[4vh] "
                     >WEB DEVELOPMENT</h1>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 md:gap-x-[5vw] md:gap-y-[2vw] gap-x-[4vw] gap-y-[2vh] pl-[2vw] pr-[2vw]  ">
+        <div className="grid grid-cols-2 md:grid-cols-3 md:gap-x-[5vw]   md:gap-y-[2vh] ">
         {softwares.map ((software: ISoftware) => (
         <SoftwareCard software={software} key={software.id}/>
         ))}

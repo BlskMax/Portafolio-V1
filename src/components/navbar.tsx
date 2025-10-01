@@ -85,9 +85,9 @@ export default function Navbar() {
             )}
 
             {pathname === '/softwareDev' ? (
-              <button type="button" onClick={() => router.push('/softwareDev')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>SOFTWARE</button>
+              <button type="button" onClick={() => router.push('/softwareDev')} className={`${bebas.variable} font-sans text-2xl font-bold text-red-800`}>WEB</button>
             ) : (
-              <button type="button" onClick={() => router.push('/softwareDev')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>SOFTWARE</button>
+              <button type="button" onClick={() => router.push('/softwareDev')} className={`${bebas.variable} font-sans text-2xl font-bold hover:text-red-600`}>WEB</button>
             )}
 
             {pathname === '/contactPage' ? (

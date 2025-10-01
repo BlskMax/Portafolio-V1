@@ -35,9 +35,13 @@ function SoftwareCard({ software }: ISoftwareProps) {
 
     return (
         <>
-            <main className="flex md:flex-col flex-col items-start">
+            <main className="flex md:flex-col flex-col text-center md:w-auto w-[45vw] items-center md:border-b-2 md:border-dotted">
                 <div className="relative bg-black ">
                     
+                    <button
+                        onClick={handleProjectClick}
+                        className="font-bold md:text-4xl hover:scale-105 duration-500"
+                    >
                     <img
                         src={software.image}
                         alt={software.name}
@@ -45,28 +49,24 @@ function SoftwareCard({ software }: ISoftwareProps) {
                     />
 
                     <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 hover:opacity-100 duration-300 transition-opacity text-white">
-                        <button
-                            onClick={handleProjectClick}
-                            className="font-bold md:text-4xl hover:scale-110 duration-500"
-                        >
                             <img
                             src={software.logo}
                             alt="DETALLES"
                             className="md:w-[20vw] w-[24vw] opacity-100 duration-300"
                             />
-                        </button>
                     </div>
+                 </button>
                 </div>
 
                 
 
                 <section className={bungee.className}>
-                <div className="flex flex-row justify-between uppercase border-b-2 border-dotted
+                <div className="flex md:flex-row flex-col justify-between uppercase
                 md:w-[28vw] p-2 ">
-                    <h1 className= "md:text-lg mt-[1vh] mb-[1vh]">
+                    <h1 className= "md:text-lg md:mt-[1vh]  md:mb-[1vh]">
                             {software.name}
                     </h1>
-                    <h1 className= "md:text-lg text-red-800  mt-[1vh] mb-[1vh]">
+                    <h1 className= "md:text-lg text-red-800  md:mt-[1vh] md:mb-[1vh]">
                             {software.time}
                     </h1>
                 </div>

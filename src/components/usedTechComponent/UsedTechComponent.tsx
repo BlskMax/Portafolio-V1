@@ -35,11 +35,11 @@ export default function UsedTechComponent({ images }: {images: string[] }) {
 
   return (
          <div>
-           <div className="relative w-full max-w-sm mx-auto overflow-hidden rounded-2xl border-2 border-white mt-4 p-4">
+           <div className="relative w-full md:max-w-sm max-w-[60vw] mx-auto overflow-hidden rounded-2xl border-2 border-white mt-4 p-4">
              <div className="flex w-[7000000%] animate-scroll">
                {repeatedImages.concat(carImages).map((src, index) => (
                  <div key={index} className="flex-none">
-                   <img src={src} alt={`Image ${index + 1}`} className="max-w-[12vw] md:max-w-[4vw] h-[10vh] ml-[2vw] object-contain object-center rounded-2xl" />
+                   <img src={src} alt={`Image ${index + 1}`} className="max-w-[50vw] md:max-w-[4vw] md:h-[10vh] h-[3vh] ml-[2vw] object-contain object-center rounded-2xl" />
                  </div>
                ))}
              </div>

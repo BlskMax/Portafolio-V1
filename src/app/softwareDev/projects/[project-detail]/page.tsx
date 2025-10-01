@@ -115,39 +115,39 @@ const ProjectDetailPage = () => {
                 <main className="flex md:flex-col flex-col md:mt-[10vh] mt-[12vh]">
 
                     <button type="button" onClick={() => router.push('/softwareDev')}>    
-                        <FaArrowAltCircleLeft className="md:text-4xl md:ml-[2vw] md:mb-[4vh] hover:text-red-600 duration-300 sticky
+                        <FaArrowAltCircleLeft className="md:text-4xl md:ml-[2vw] md:mb-[4vh] mb-[4vh] hover:text-red-600 duration-300 sticky
                         text-2xl"/>
                     </button>
 
-                    <article className="flex flex-row justify-between uppercase">
+                    <article className="flex flex-row justify-between uppercase md:w-auto w-[100vw] md:mr-0 mr-[2vw] ">
 
-                        <section className={`${bebas.className} ml-[10vw] flex flex-col`}>
+                        <section className={`${bebas.className} md:ml-[10vw] ml-[2vw] flex flex-col`}>
                             <img src={project.altImage} 
-                            className="w-[22vw] h-[60vh] object-cover rounded-lg "/>
+                            className="md:w-[22vw] md:h-[60vh] w-[60vw] h-[30vh] object-cover rounded-lg "/>
                             
-                            <div className="flex flex-row justify-between mt-[4vh] ">
+                            <div className="flex flex-row md:justify-between justify-evenly mt-[4vh] ">
                             <a
                                  href={project.github}
                                  target="_blank"
                                  rel="noopener noreferrer"
                             >
-                            <button className="flex flex-row w-[10vw] bg-red-700 items-baseline justify-evenly text-black hover:text-white duration-300  ">
+                            <button className="flex md:flex-row flex-col md:text-start text-center md:w-[10vw] w-[10vw] md:rounded-none rounded-md bg-red-700 md:items-baseline items-center justify-evenly text-black hover:text-white duration-300  ">
                                 <FaGithub className="text-4xl " />
-                                <h1 className="text-5xl ">
+                                <h1 className="md:text-5xl text-base ">
                                     CODE
                                 </h1>
                             </button>
                             </a>
 
                             {project.deployAvailable && (
-                                                                <a
+                                                            <a
                                                                 href={project.deployLink}
                                                                 target="_blank"
                                                                 rel="noopener noreferrer"
                                                            >
-                                                           <button className="flex flex-row w-[10vw] bg-red-700 items-baseline justify-evenly text-black hover:text-white duration-300  ">
+                                                           <button className="flex md:flex-row flex-col md:text-start text-center md:w-[10vw] w-[10vw] md:rounded-none rounded-md bg-red-700 md:items-baseline items-center justify-evenly text-black hover:text-white duration-300  ">
                                                                <TbWorld className="text-4xl " />
-                                                               <h1 className="text-5xl ">
+                                                               <h1 className="md:text-5xl text-base ">
                                                                    WEB
                                                                </h1>
                                                            </button>
@@ -159,21 +159,21 @@ const ProjectDetailPage = () => {
 
                         </section>
 
-                        <section className="content-center w-[50vw] mr-[10vw]">
+                        <section className="md:content-center md:w-[50vw] w-[80vw]  md:mr-[10vw] mr-[1vw] md:ml-0 ml-[4vw]">
                             <img src={project.logo} 
                             className="w-[35vw] ml-auto mr-auto border-b-2 border-dotted pb-[1vh] hover:scale-105 hover:-rotate-2 duration-300"/>
                             <div className={shippori.className}>
-                                <h1 className="uppercase text-2xl w-[50vw] text-justify mt-[4vh] border-b-2 border-dotted pb-[2vh]">{project.description}</h1>
+                                <h1 className="uppercase md:text-2xl text-[1.3vh] w-[50vw]  md:mt-[4vh] mt-[2vh] border-b-2 border-dotted pb-[2vh]">{project.description}</h1>
                             </div>
 
-                            <div className={`${bungee.className} flex flex-row justify-between`} >
+                            <div className={`${bungee.className} flex md:flex-row flex-col justify-between`} >
                                 <div className="flex flex-row">
-                                <h1 className="uppercase text-2xl text-white mr-[1vw] ">Type of project:</h1>
-                                <h1 className="uppercase text-2xl text-red-600 ">{project.type}</h1>
+                                <h1 className="uppercase md:text-2xl text-sm text-white mr-[1vw] ">Type:</h1>
+                                <h1 className="uppercase md:text-2xl text-sm text-red-600 ">{project.type}</h1>
                                 </div>
                                 <div className="flex flex-row">
-                                    <h1 className="uppercase text-2xl text-white mr-[1vw] ">YEAR:</h1>
-                                    <h1 className="uppercase text-2xl text-red-600 ">{project.time}</h1>
+                                    <h1 className="uppercase md:text-2xl text-sm text-white mr-[1vw] ">YEAR:</h1>
+                                    <h1 className="uppercase md:text-2xl text-sm text-red-600 ">{project.time}</h1>
                                 </div>
                             </div>
 
@@ -181,27 +181,27 @@ const ProjectDetailPage = () => {
                         
                     </article>
 
-                    <article className=" ml-auto mr-[20vw]">
+                    <article className=" ml-auto md:mr-[20vw] md:ml-auto mr-auto">
                             <UsedTechComponent images={techImages} />
                     </article>
 
 
                     {project.screenshots ? (<article className=" mt-[5vh] border-t-2 border-dotted ml-auto mr-auto mb-[8vh] ">
-                    <div className="grid grid-cols-2 gap-y-[5vh] gap-x-[5vw] mt-[8vh]">
+                    <div className="grid md:grid-cols-2 grid-cols-1 md:gap-y-[5vh] gap-y-[2vh] gap-x-[5vw] md:mt-[8vh] mt-[2vh]">
   {extraImages.map((img, index) => (
     <img
       key={index}
       src={img ?? ""}
-      className="w-[45vw] rounded-2xl cursor-pointer hover:scale-105 duration-200 border-2 border-white"
+      className="md:w-[45vw] w-[80vw] rounded-2xl cursor-pointer hover:scale-105 duration-200 border-2 border-white"
       onClick={() => setActiveImageIndex(index)}
     />
   ))}
 </div>
 
                     </article>) : ( 
-                      <div className="ml-auto mr-auto">
+                      <div className="ml-auto mr-auto w-[90vw] md:w-[50vw] text-center ">
                             <div className={shippori.className}>
-                                <h1 className="uppercase text-red-700 text-5xl border-2 border-dotted p-16 mb-[10vh] mt-[10vh]">No screenshots available :( </h1>
+                                <h1 className="uppercase text-red-700 md:text-5xl text-xl border-2 border-dotted p-16 mb-[10vh] mt-[10vh]">No screenshots available :( </h1>
                             </div>
                       </div>
                     )}
