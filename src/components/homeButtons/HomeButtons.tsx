@@ -33,19 +33,19 @@ export default function HomeButtons() {
         <main className="md:mt-[65vh] mt-[33vh]  " >
             <div className=" flex md:justify-evenly flex-row  justify-evenly   ">
 
-                <button type="button" onClick={() => router.push('/graphicDesign')}
-                className={`${bebas.variable} font-sans md:text-7xl text-lg font-bold text-black 
-                bg-white md:p-4 md:w-[60vh] w-[24vw] md:mb-0 mb-[2vh] md:h-auto h-[5vh]
-                hover:scale-105 hover:bg-red-800 duration-300 md:rounded-none rounded-lg
-                hover:text-white`}>
-                GRAPHIC DESIGN</button>
-
                 <button type="button" onClick={() => router.push('/video')}
                 className={`${bebas.variable} font-sans md:text-7xl text-lg  font-bold text-black 
                 bg-white md:p-4 md:w-[60vh] w-[24vw] md:mb-0 mb-[2vh] md:h-auto h-[5vh]
                 hover:scale-105 hover:bg-red-800 duration-300 md:rounded-none rounded-lg 
                 hover:text-white`}>
                 VIDEO</button>
+
+                <button type="button" onClick={() => router.push('/graphicDesign')}
+                className={`${bebas.variable} font-sans md:text-7xl text-lg font-bold text-black 
+                bg-white md:p-4 md:w-[60vh] w-[24vw] md:mb-0 mb-[2vh] md:h-auto h-[5vh]
+                hover:scale-105 hover:bg-red-800 duration-300 md:rounded-none rounded-lg
+                hover:text-white`}>
+                GRAPHIC DESIGN</button>
 
                 <button type="button" onClick={() => router.push('/softwareDev')}
                 className={`${bebas.variable} font-sans md:text-7xl text-lg  font-bold text-black 
