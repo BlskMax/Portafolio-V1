@@ -35,7 +35,7 @@ function VideoCard({ video }: IVideoThingProps) {
           <img
             src={video.image}
             alt={video.name}
-            className="md:w-[30vw] md:h-[50vh] w-[20vh] h-auto md:object-contain object-cover cursor-pointer transition-transform hover:scale-105 duration-300"
+            className="md:w-[30vw] md:h-[50vh] w-[20vh] h-auto md:object-contain object-cover cursor-pointer transition-transform hover:scale-105 duration-300 "
           />
         </a>
 

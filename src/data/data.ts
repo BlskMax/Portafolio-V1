@@ -13,7 +13,7 @@ export const allSoftwareList: ISoftware[] = [
         logo:"/images/bShortLogo.png",
         altImage:"/images/shortPrev.jpg",
         type:"freelance",
-        description:"B-SHORT is the archetype of a highly customizable webpage wich can be sold to different artists and talents to show all of their products and content to their audience, giving them a space to share content without any conventional social media restrains.  ",
+        description:"B-SHORT is the archetype of a highly customizable webpage which can be sold to different artists and talents to show all of their products and content to their audience, giving them a space to share content without any conventional social media restrains.  ",
         screenshots:true,
         extra1:"/images/screenshots/shortX1.jpg",
         extra2:"/images/screenshots/shortX2.jpg",
@@ -469,6 +469,13 @@ export const allGraphicList: IGraphicThing[] = [
         image:"/images/works/JACKASS_MINIATURA_CHILA.jpg",
         list:"youtube",
     },
+    {
+        id:129,
+        name:"Power Nov",
+        type:"flyer",
+        image:"/images/works/proto_hand_b.jpg",
+        list:"music",
+    },
 ]
 
 export const allContacts: IContact[] = [
@@ -500,21 +507,39 @@ export const allContacts: IContact[] = [
 
 export const allVideos: IVideoThing[] = [
     {
-    id:1,
-    name:"COAGULA MEGAN ",
-    type:"LYRIC VIDEO",
-    list:"MUSIC",
-    image:"/images/works/coagThumb.jpg",
-    link:"https://www.youtube.com/watch?v=lD10-aE8S20"
-    },
-
-    {
     id:2,
     name:"Pink Machine",
     type:"MUSIC VIDEO",
     list:"MUSIC",
     image:"/images/works/pinkThumb2.jpg",
     link:"https://www.youtube.com/watch?v=tZGwVhhlTRc"
+    },
+
+        {
+    id:2,
+    name:"Farewell Release Teaser",
+    type:"MUSIC VIDEO",
+    list:"MUSIC",
+    image:"/images/works/far_img_2.jpg",
+    link:"https://youtube.com/shorts/DBR9A1X0HmQ?feature=share"
+    },
+    
+    {
+    id:2,
+    name:"Farewell Teaser Trailer",
+    type:"MUSIC VIDEO",
+    list:"MUSIC",
+    image:"/images/works/far_img_1.jpg",
+    link:"https://youtu.be/IvcZ9xkMfz0"
+    },
+
+        {
+    id:1,
+    name:"COAGULA MEGAN ",
+    type:"LYRIC VIDEO",
+    list:"MUSIC",
+    image:"/images/works/coagThumb.jpg",
+    link:"https://www.youtube.com/watch?v=lD10-aE8S20"
     },
 
         {
@@ -589,4 +614,5 @@ export const allVideos: IVideoThing[] = [
     image:"/images/works/MINIATURA_FANTASTICA.jpg",
     link:"https://youtu.be/asaCawYUWUM"
     },
+
 ]
