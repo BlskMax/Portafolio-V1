@@ -358,6 +358,34 @@ export const allGraphicList: IGraphicThing[] = [
         list:"fan art",
     },
     {
+        id:128,
+        name:"Portal 2",
+        type:"Fan Art",
+        image:"/images/works/POSTER_PORTAL_2.jpg",
+        list:"fan art",
+    },
+    {
+        id:128,
+        name:"Tetris Effect",
+        type:"Fan Art",
+        image:"/images/works/POSTER_tetris_effect_2.jpg",
+        list:"fan art",
+    },
+    {
+        id:128,
+        name:"Doom Eternal",
+        type:"Fan Art",
+        image:"/images/works/poster_doom_eternal_2.jpg",
+        list:"fan art",
+    },
+    {
+        id:128,
+        name:"Resident Evil 3",
+        type:"Fan Art",
+        image:"/images/works/POSTER_resident_3.jpg",
+        list:"fan art",
+    },
+    {
         id:129,
         name:"TLOU THUMBNAIL",
         type:"youtube thumbnail",
@@ -506,13 +534,24 @@ export const allContacts: IContact[] = [
 ]
 
 export const allVideos: IVideoThing[] = [
-    {
+
+
+        {
     id:2,
-    name:"Pink Machine",
+    name:"Fur Dynamo",
+    type:"LYRIC VIDEO",
+    list:"MUSIC",
+    image:"/images/works/DYNAMO.jpg",
+    link:"https://youtube.com/shorts/DBR9A1X0HmQ?feature=share"
+    },
+
+        {
+    id:2,
+    name:"Erosadness",
     type:"MUSIC VIDEO",
     list:"MUSIC",
-    image:"/images/works/pinkThumb2.jpg",
-    link:"https://www.youtube.com/watch?v=tZGwVhhlTRc"
+    image:"/images/works/ERO.jpg",
+    link:"https://youtube.com/shorts/DBR9A1X0HmQ?feature=share"
     },
 
         {
@@ -522,6 +561,15 @@ export const allVideos: IVideoThing[] = [
     list:"MUSIC",
     image:"/images/works/far_img_2.jpg",
     link:"https://youtube.com/shorts/DBR9A1X0HmQ?feature=share"
+    },
+
+        {
+    id:2,
+    name:"Pink Machine",
+    type:"MUSIC VIDEO",
+    list:"MUSIC",
+    image:"/images/works/pinkThumb2.jpg",
+    link:"https://www.youtube.com/watch?v=tZGwVhhlTRc"
     },
     
     {
